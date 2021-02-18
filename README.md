@@ -1,15 +1,11 @@
 # GC Helper
-Extensão criada para auxiliar em algumas funcionalidades da plataforma GamersClub. (Em breve na chrome web store)
+[GC Helper](https://chrome.google.com/webstore/detail/gc-helper/ohbhdoglpgeaibbfgifbcknnhcmdnidg)
 
 ## **Funcionalidades**
 - **Automatização**
     - Aceitar Partida *(Garante o pré-ready)*
     - Dar Ready *(Da ready após encontrar um lobby)*
-    - Copiar IP *(Copia o IP após os vetos)*
-- **Otimização**
-    - Bloquear Propaganda Pré-Jogo *(Não garante o ip instantâneamente)*
-    - Esconder Medalhas *(Oculta as medalhas do perfil de um usuário)*
-    - Esconder Conquistas *(Oculta as conquistas do perfil de um usuário)*
+    - Bloquear Propaganda *(Não garante o ip instantâneamente)*
 - **Informativos**
     - Calcular Pontos *(Necessários para subir ou cair de nível)*
     - Verificar Partidas *(Que houveram ou não jogadores banidos)*
