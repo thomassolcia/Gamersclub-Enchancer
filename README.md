@@ -1,5 +1,6 @@
-# GC Helper
-[GC Helper - Chrome Web Store](https://chrome.google.com/webstore/detail/gc-helper/ohbhdoglpgeaibbfgifbcknnhcmdnidg)
+# GamersClub Enchancer
+#### [Chrome - Web Store](https://chrome.google.com/webstore/detail/gc-helper/ohbhdoglpgeaibbfgifbcknnhcmdnidg)
+#### Firefox - Browser Add-ons (Em Breve)
 
 ## **Funcionalidades**
 - **Automatização**
@@ -12,3 +13,9 @@
 - **Miscellaneous**
     - Bloquear Propaganda *(Não garante o ip instantâneamente)*
     - Fixar Lobby *(Idealizado por henriquelbsouza | Fixa a sala e os desafios enviados para facilitar a visualização)*
+
+## **Imagens**
+![](.\img\1.png)
+![](.\img\2.png)
+![](.\img\3.png)
+![](.\img\4.png)
