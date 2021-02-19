@@ -15,7 +15,11 @@
     - Fixar Lobby *(Idealizado por henriquelbsouza | Fixa a sala e os desafios enviados para facilitar a visualização)*
 
 ## **Imagens**
-![](.\img\1.png)
-![](.\img\2.png)
-![](.\img\3.png)
-![](.\img\4.png)
+<p float="left">
+<img src="https://github.com/awoone/GC-Helper/blob/master/img/1.png" data-canonical-src="https://github.com/awoone/GC-Helper/blob/master/img/1.png" width="400"/>
+<img src="https://github.com/awoone/GC-Helper/blob/master/img/2.png" data-canonical-src="https://github.com/awoone/GC-Helper/blob/master/img/2.png" width="400"/>
+</p>
+<p float="left">
+<img src="https://github.com/awoone/GC-Helper/blob/master/img/3.png" data-canonical-src="https://github.com/awoone/GC-Helper/blob/master/img/3.png" width="400"/>
+<img src="https://github.com/awoone/GC-Helper/blob/master/img/4.png" data-canonical-src="https://github.com/awoone/GC-Helper/blob/master/img/4.png" width="400"/>
+</p>
