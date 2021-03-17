@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamersClub Enchancer</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <link rel="stylesheet" href="../styles/global.css">
+    <script type="module" src="../config/const.js"></script>
+    <script type="text/javascript" src="../lib/popup.js"></script>
+</head>
+
+<body>
+    <div class="root">
+        <header class="header">
+            <div class="header-div">
+                <h6 class="header-text">GamersClub Enchancer</h6>
+            </div>
+        </header>
+
+        <div class="body">
+            <div class="menu">
+                <ul class="menu-ul">
+                    <div class="menu-btn menu-btn-selected" role="button" id="btn_general">
+                        <span class="menu-text">Geral</span>
+                    </div>
+                    <div class="menu-btn" role="button" id="btn_automation">
+                        <span class="menu-text">Automação</span>
+                    </div>
+                    <div class="menu-btn" role="button" id="btn_visual">
+                        <span class="menu-text">Visual</span>
+                    </div>
+                    <div class="menu-btn" role="button" id="btn_notification">
+                        <span class="menu-text">Notificação</span>
+                    </div>
+                    <div class="menu-btn" role="button" id="btn_about">
+                        <span class="menu-text">Sobre</span>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="content content-active" id="page_general">
+                <ul class="content-ul">
+                    <li class="content-title">Extensão</li>
+                    <li class="content-btn" id="btn_enable_extension">
+                        <div class="c70">
+                            <span class="content-text">Habilitar</span>
+                            <p class="content-explanation">Ative para que a extensão funcione na GamersClub.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_enable_extension" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_enable_extension"></label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content" id="page_automation">
+                <ul class="content-ul">
+                    <li class="content-title">Criação</li>
+                    <li class="content-btn" id="btn_enable_criarLobby">
+                        <div class="c70">
+                            <span class="content-text">Criar Lobby (Forçado)</span>
+                            <p class="content-explanation">Na página de lobbys, adiciona um botão para criação automática de uma sala. Isso fará com que um lobby seja criado assim que tiver espaço. OBS. Para contas FREE o limite de salas é 100 enquanto para PREMIUM/PLUS é de 250.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_enable_criarLobby" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_enable_criarLobby"></label>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="content-title">Pré Jogo</li>
+                    <li class="content-btn" id="btn_enable_preready">
+                        <div class="c70">
+                            <span class="content-text">Aceitar Partida</span>
+                            <p class="content-explanation">Aceitará automaticamente o pré-ready.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_enable_preready" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_enable_preready"></label>
+                        </div>
+                    </li>
+                    <li class="content-btn" id="btn_enable_ready">
+                        <div class="c70">
+                            <span class="content-text">Dar Ready</span>
+                            <p class="content-explanation">Aceitará aceitar automaticamente o ready pós vetos.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_enable_ready" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_enable_ready"></label>
+                        </div>
+                    </li>
+                    <li class="content-btn" id="btn_enable_copyip">
+                        <div class="c70">
+                            <span class="content-text">Copiar IP (Inconsistente)</span>
+                            <p class="content-explanation">Copiará automaticamento o IP da partida.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_enable_copyip" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_enable_copyip"></label>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="content-title">Pós Jogo</li>
+                    <li class="content-btn" id="btn_enable_returnLobby">
+                        <div class="c70">
+                            <span class="content-text">Retornar ao lobby</span>
+                            <p class="content-explanation">Sempre ao finalizar um jogo a tela "Resultados da Partida" será redirecionada ao lobby.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_enable_returnLobby" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_enable_returnLobby"></label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content" id="page_visual">
+                <ul class="content-ul">
+                    <li class="content-title">Geral</li>
+                    <li class="content-btn" id="btn_enable_ads">
+                        <div class="c70">
+                            <span class="content-text">Bloquear Propagandas</span>
+                            <p class="content-explanation">Impedirá propagandas de serem mostradas no lobby e de serem reproduzidas após os vetos.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_enable_ads" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_enable_ads"></label>
+                        </div>
+                    </li>
+                    <li class="content-btn" id="btn_enable_chatList">
+                        <div class="c70">
+                            <span class="content-text">Desabilitar Chat/Pedidos de Amizade</span>
+                            <p class="content-explanation">Irá fazer com que os container com os pedidos de amizade e seus chats desapareçam. OBS. Outros usuários ainda poderão lhe enviar pedidos de amizade ou chat, mas você não irá vê-los.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_enable_chatList" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_enable_chatList"></label>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="content-title">Lobby</li>
+                    <li class="content-btn" id="btn_enable_fixa">
+                        <div class="c70">
+                            <span class="content-text">Fixar Lobby</span>
+                            <p class="content-explanation">Irá fixar o lobby quando criado e os desafios enviados, para facilitar a visualização.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_enable_fixa" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_enable_fixa"></label>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="content-title">Perfil</li>
+                    <li class="content-btn" id="btn_enable_calcula">
+                        <div class="c70">
+                            <span class="content-text">Calcular Pontos</span>
+                            <p class="content-explanation">Mostrará em baixo do seu nome e no quadro de estatísticas quantos pontos faltam para subir ou cair de nível. OBS. Os pontos são calculados de acordo com o perfil que está aberto.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_enable_calcula" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_enable_calcula"></label>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="content-title">Minhas Partidas</li>
+                    <li class="content-btn" id="btn_enable_verifica">
+                        <div class="c70">
+                            <span class="content-text">Verificar Partidas</span>
+                            <p class="content-explanation">Na aba das suas partidas recentes, mostrará em vermelho quando houver alguma jogador banido, caso contrário, aparecerão em verde.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_enable_verifica" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_enable_verifica"></label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content" id="page_notification">
+                <ul class="content-ul">
+                    <li class="content-title">Habilitar</li>
+                    <li class="content-btn" id="btn_enable_notification">
+                        <div class="c70">
+                            <span class="content-text">Habilitar</span>
+                            <p class="content-explanation">Ative para que as notificações funcionem na GamersClub.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_enable_notification" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_enable_notification"></label>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="content-title">Pré Jogo</li>
+                    <li class="content-btn" id="btn_notification_preready">
+                        <div class="c70">
+                            <span class="content-text">Aceitar Partida</span>
+                            <p class="content-explanation">Mostrará uma notificação ao aceitar a partida.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_notification_preready" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_notification_preready"></label>
+                        </div>
+                    </li>
+                    <li class="content-btn" id="btn_notification_ready">
+                        <div class="c70">
+                            <span class="content-text">Dar Ready</span>
+                            <p class="content-explanation">Mostrará uma notificação ao dar ready.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_notification_ready" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_notification_ready"></label>
+                        </div>
+                    </li>
+                    <li class="content-btn" id="btn_notification_copyip">
+                        <div class="c70">
+                            <span class="content-text">Copiar IP (Inconsistente)</span>
+                            <p class="content-explanation">Mostrará uma notificação assim que o IP for copiado.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_notification_copyip" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_notification_copyip"></label>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="content-title">Pós Jogo</li>
+                    <li class="content-btn" id="btn_notification_returnLobby">
+                        <div class="c70">
+                            <span class="content-text">Retornar ao lobby</span>
+                            <p class="content-explanation">Mostrará uma notificação ao retornar ao lobby, após finalizar sua partida.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_notification_returnLobby" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_notification_returnLobby"></label>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="content-title">Geral</li>
+                    <li class="content-btn" id="btn_notification_enableAds">
+                        <div class="c70">
+                            <span class="content-text">Bloquear Propagandas</span>
+                            <p class="content-explanation">Mostrará uma notificações sempre que propagandas forem removidas.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_notification_enableAds" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_notification_enableAds"></label>
+                        </div>
+                    </li>
+                    <li class="content-btn" id="btn_notification_removeChatList">
+                        <div class="c70">
+                            <span class="content-text">Desabilitar Chat/Pedidos de Amizade</span>
+                            <p class="content-explanation">Mostrará uma notificação ao remover a aba dos chats.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_notification_removeChatList" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_notification_removeChatList"></label>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="content-title">Lobby</li>
+                    <li class="content-btn" id="btn_notification_enableFixa">
+                        <div class="c70">
+                            <span class="content-text">Fixar Lobby</span>
+                            <p class="content-explanation">Mostrará uma notificação assim que o lobby for fixado.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_notification_enableFixa" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_notification_enableFixa"></label>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="content-title">Perfil</li>
+                    <li class="content-btn" id="btn_notification_calculaPontos">
+                        <div class="c70">
+                            <span class="content-text">Calcular Pontos</span>
+                            <p class="content-explanation">Mostrará uma notificação assim que seus pontos forem atualizados.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_notification_calculaPontos" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_notification_calculaPontos"></label>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="content-title">Minhas Partidas</li>
+                    <li class="content-btn" id="btn_notification_verifica">
+                        <div class="c70">
+                            <span class="content-text">Verificar Partida</span>
+                            <p class="content-explanation">Mostrará uma notificação ao realizar a verificação de jogadores banidos em partidas recentes.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_notification_verifica" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_notification_verifica"></label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content" id="page_about">
+                <ul class="content-ul">
+                    <li class="content-title">Sobre</li>
+                    <hr>
+                    <li class="sub-content content-wbtn">
+                        <span class="content-text">Versão</span>
+                        <p class="content-explanation">2.0.5.3 para Chrome</p>
+                    </li>
+                    <li class="sub-content content-wbtn">
+                        <a href="https://github.com/awoone/GC-Helper" target="_blank">
+                            <span class="content-text">Source</span>
+                            <p class="content-explanation">GitHub</p>
+                        </a>
+                    </li>
+                    <li class="sub-content content-wbtn">
+                        <a target="_blank">
+                            <span class="content-text">Discord</span>
+                            <p class="content-explanation">Awoone#0001</p>
+                        </a>
+                    </li>
+                    <hr>
+                    <li class="content-title">Agradecimentos</li>
+                    <li class="sub-content content-wbtn">
+                        <a href="https://github.com/faceit-enhancer/faceit-enhancer" target="_blank">
+                            <span class="content-text">Faceit Enhancer</span>
+                            <p class="content-explanation">Pela interface e Código Fonte</p>
+                        </a>
+                    </li>
+                    <li class="sub-content content-wbtn">
+                        <span class="content-text">Henriquelbsouza</span>
+                        <p class="content-explanation">Pela idealização do comando "Fixar Lobby"</p>
+                    </li>
+                    <hr>
+                    <li class="content-title">Doações</li>
+                    <li class="sub-content content-wbtn">
+                        <a href="https://www.paypal.com/donate/?hosted_button_id=GDDS6P52Z2V3J" target="_blank">
+                            <span class="content-text">Paypal</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
