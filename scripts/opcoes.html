@@ -62,7 +62,7 @@
                     <li class="content-btn" id="btn_enable_criarLobby">
                         <div class="c70">
                             <span class="content-text">Criar Lobby (Forçado)</span>
-                            <p class="content-explanation">Na página de lobbys, adiciona um botão para criação automática de uma sala. Isso fará com que um lobby seja criado assim que tiver espaço. OBS. Para contas FREE o limite de salas é 100 enquanto para PREMIUM/PLUS é de 250.</p>
+                            <p class="content-explanation">Na página de lobbys, adiciona um botão para criação automática de uma sala. Isso fará com que um lobby seja criado assim que tiver espaço. OBS. Para contas FREE o limite de salas é 50 enquanto para PREMIUM/PLUS é de 400.</p>
                         </div>
                         <div class="switch_container">
                             <input id="chk_enable_criarLobby" class="switch switch-shadow" type="checkbox">
@@ -84,7 +84,7 @@
                     <li class="content-btn" id="btn_enable_ready">
                         <div class="c70">
                             <span class="content-text">Dar Ready</span>
-                            <p class="content-explanation">Aceitará aceitar automaticamente o ready pós vetos.</p>
+                            <p class="content-explanation">Aceitará automaticamente o ready pós vetos.</p>
                         </div>
                         <div class="switch_container">
                             <input id="chk_enable_ready" class="switch switch-shadow" type="checkbox">
@@ -132,7 +132,7 @@
                     <li class="content-btn" id="btn_enable_chatList">
                         <div class="c70">
                             <span class="content-text">Desabilitar Chat/Pedidos de Amizade</span>
-                            <p class="content-explanation">Irá fazer com que os container com os pedidos de amizade e seus chats desapareçam. OBS. Outros usuários ainda poderão lhe enviar pedidos de amizade ou chat, mas você não irá vê-los.</p>
+                            <p class="content-explanation">Irá fazer com que os pedidos de amizade e seus chats desapareçam. OBS. Outros usuários ainda poderão lhe enviar pedidos de amizade ou chat, mas você não irá vê-los.</p>
                         </div>
                         <div class="switch_container">
                             <input id="chk_enable_chatList" class="switch switch-shadow" type="checkbox">
@@ -149,6 +149,16 @@
                         <div class="switch_container">
                             <input id="chk_enable_fixa" class="switch switch-shadow" type="checkbox">
                             <label for="chk_enable_fixa"></label>
+                        </div>
+                    </li>
+                    <li class="content-btn" id="btn_enable_desafioNotify">
+                        <div class="c70">
+                            <span class="content-text">Remover mensagem de desafio</span>
+                            <p class="content-explanation">Ao desafiar um time a notificação não irá mais aparecer.</p>
+                        </div>
+                        <div class="switch_container">
+                            <input id="chk_enable_desafioNotify" class="switch switch-shadow" type="checkbox">
+                            <label for="chk_enable_desafioNotify"></label>
                         </div>
                     </li>
                     <hr>
@@ -168,7 +178,7 @@
                     <li class="content-btn" id="btn_enable_verifica">
                         <div class="c70">
                             <span class="content-text">Verificar Partidas</span>
-                            <p class="content-explanation">Na aba das suas partidas recentes, mostrará em vermelho quando houver alguma jogador banido, caso contrário, aparecerão em verde.</p>
+                            <p class="content-explanation">Na aba das suas partidas recentes, mostrará em vermelho quando houver algum jogador banido, caso contrário, aparecerão em verde.</p>
                         </div>
                         <div class="switch_container">
                             <input id="chk_enable_verifica" class="switch switch-shadow" type="checkbox">
@@ -258,18 +268,6 @@
                         </div>
                     </li>
                     <hr>
-                    <li class="content-title">Lobby</li>
-                    <li class="content-btn" id="btn_notification_enableFixa">
-                        <div class="c70">
-                            <span class="content-text">Fixar Lobby</span>
-                            <p class="content-explanation">Mostrará uma notificação assim que o lobby for fixado.</p>
-                        </div>
-                        <div class="switch_container">
-                            <input id="chk_notification_enableFixa" class="switch switch-shadow" type="checkbox">
-                            <label for="chk_notification_enableFixa"></label>
-                        </div>
-                    </li>
-                    <hr>
                     <li class="content-title">Perfil</li>
                     <li class="content-btn" id="btn_notification_calculaPontos">
                         <div class="c70">
@@ -302,7 +300,7 @@
                     <hr>
                     <li class="sub-content content-wbtn">
                         <span class="content-text">Versão</span>
-                        <p class="content-explanation">2.0.5.3 para Chrome</p>
+                        <p class="content-explanation">2.0.5.4 para Chrome</p>
                     </li>
                     <li class="sub-content content-wbtn">
                         <a href="https://github.com/awoone/GC-Helper" target="_blank">
