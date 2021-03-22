@@ -3,7 +3,7 @@
 
     "manifest_version": 2,
     "name": "GamersClub Enchancer",
-    "version": "2.0.5.5",
+    "version": "2.0.6",
     "permissions": ["storage"],
     "description": "Ferramenta para auxiliar o usuário na plataforma da GamersClub.",
 
@@ -15,38 +15,58 @@
 
     "content_scripts": [{
             "matches": ["*://gamersclub.com.br/*"],
+            "css": [
+                "node_modules/@sweetalert2/theme-dark/dark.css"
+            ],
             "js": [
                 "lib/jquery.min.js",
                 "lib/features.js",
-                "lib/popup.js"
+                "lib/popup.js",
+                "node_modules/sweetalert2/dist/sweetalert2.js"
             ]
         },
         {
             "matches": ["*://*.gamersclub.com.br/minhas-partidas*"],
+            "css": [
+                "node_modules/@sweetalert2/theme-dark/dark.css"
+            ],
             "js": [
                 "lib/jquery.min.js",
-                "lib/extras.js"
+                "lib/extras.js",
+                "node_modules/sweetalert2/dist/sweetalert2.js"
             ]
         },
         {
             "matches": ["*://*.gamersclub.com.br/lobby/partida*"],
+            "css": [
+                "node_modules/@sweetalert2/theme-dark/dark.css"
+            ],
             "js": [
                 "lib/jquery.min.js",
-                "lib/after.js"
+                "lib/after.js",
+                "node_modules/sweetalert2/dist/sweetalert2.js"
             ]
         },
         {
             "matches": ["*://*.gamersclub.com.br/lobby"],
+            "css": [
+                "node_modules/@sweetalert2/theme-dark/dark.css"
+            ],
             "js": [
                 "lib/jquery.min.js",
-                "lib/lobby.js"
+                "lib/lobby.js",
+                "node_modules/sweetalert2/dist/sweetalert2.js"
             ]
         },
         {
             "matches": ["*://*.gamersclub.com.br/jogador*"],
+            "css": [
+                "node_modules/@sweetalert2/theme-dark/dark.css"
+            ],
             "js": [
                 "lib/jquery.min.js",
-                "lib/profile.js"
+                "lib/profile.js",
+                "node_modules/sweetalert2/dist/sweetalert2.js"
             ]
         }
     ],
