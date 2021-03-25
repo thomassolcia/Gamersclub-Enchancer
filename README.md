@@ -1,18 +1,29 @@
 # GamersClub Enchancer
 #### [Chrome - Web Store](https://chrome.google.com/webstore/detail/gc-helper/ohbhdoglpgeaibbfgifbcknnhcmdnidg)
+![Usuários](https://img.shields.io/chrome-web-store/users/ohbhdoglpgeaibbfgifbcknnhcmdnidg?color=blue&label=Usu%C3%A1rios) ![Versão](https://img.shields.io/badge/Versão-2.6.0.2-blue)
 #### Firefox - Browser Add-ons (Em Breve)
 
 ## **Funcionalidades**
-- **Automatização**
-    - Aceitar Partida *(Garante o pré-ready)*
-    - Dar Ready *(Da ready após encontrar um lobby)*
-    - Copiar IP *(Copia o IP da partida)*
-- **Informativos**
-    - Calcular Pontos *(Necessários para subir ou cair de nível)*
-    - Verificar Partidas *(Que houveram ou não jogadores banidos)*
-- **Miscellaneous**
-    - Bloquear Propaganda *(Não garante o ip instantâneamente)*
-    - Fixar Lobby *(Idealizado por henriquelbsouza | Fixa a sala e os desafios enviados para facilitar a visualização)*
+- **Automação**
+    - Criar Lobby (Forçado)
+    - Aceitar Partida
+    - Dar Ready
+    - Copiar IP
+    - Aceitar Termos Ranked
+    - Retornar ao Lobby
+- **Visual**
+    - Bloquear Propagandas
+    - Desabilitar Chat/Pedidos de Amizade
+    - Fixar Lobby
+    - Remover Mensagens de Desafio
+    - Calcular Pontos
+    - Porcentagem de Vitória
+    - Verificar Partidas
+- **Notificação**
+    - Aceitar Partida
+    - Dar Ready
+    - Copiar IP
+    - Retornar ao Lobby
 
 ## **Imagens**
 <p float="left">
