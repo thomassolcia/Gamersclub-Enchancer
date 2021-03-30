@@ -3,7 +3,7 @@
 
     "manifest_version": 2,
     "name": "GamersClub Enchancer",
-    "version": "2.0.6.3",
+    "version": "2.0.6.5",
     "permissions": ["storage"],
     "description": "Ferramenta para auxiliar o usuário na plataforma da GamersClub.",
 
