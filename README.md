@@ -1,7 +1,9 @@
 # GamersClub Enchancer
 #### [Chrome - Web Store](https://chrome.google.com/webstore/detail/Gamersclub-Enchancer/ohbhdoglpgeaibbfgifbcknnhcmdnidg)
-![Usuários](https://img.shields.io/chrome-web-store/users/ohbhdoglpgeaibbfgifbcknnhcmdnidg?color=blue&label=Usu%C3%A1rios) ![Versão](https://img.shields.io/badge/Versão-2.0.6.6-blue)
-#### Firefox - Browser Add-ons (Em Breve)
+![Usuários](https://img.shields.io/chrome-web-store/users/ohbhdoglpgeaibbfgifbcknnhcmdnidg?color=blue&label=Usu%C3%A1rios) ![Versão](https://img.shields.io/badge/Versão-2.0.6.6-blue) ![Avaliação](https://img.shields.io/chrome-web-store/stars/ohbhdoglpgeaibbfgifbcknnhcmdnidg?color=blue&label=Avalia%C3%A7%C3%A3o)
+
+#### [Firefox - Browser Add-ons](https://addons.mozilla.org/pt-BR/firefox/addon/gamersclub-enchancer/)
+![Usuários](https://img.shields.io/amo/users/gamersclub-enchancer?label=Usu%C3%A1rios&logoColor=blue) ![Versão](https://img.shields.io/badge/Versão-2.0.6.5-blue) ![Avaliação](https://img.shields.io/amo/stars/gamersclub-enchancer?color=blue&label=Avalia%C3%A7%C3%A3o)
 
 ## **Funcionalidades**
 - **Automação**
@@ -36,5 +38,5 @@
 <img src="https://github.com/thomassolcia/Gamersclub-Enchancer/blob/master/img/4.png" data-canonical-src="https://github.com/thomassolcia/Gamersclub-Enchancer/blob/master/img/4.png" width="400"/>
 </p>
 <p float="left">
-<img src="https://github.com/thomassolcia/Gamersclub-Enchancer/blob/master/img/3.png" data-canonical-src="https://github.com/thomassolcia/Gamersclub-Enchancer/blob/master/img/5.png" width="400"/>
+<img src="https://github.com/thomassolcia/Gamersclub-Enchancer/blob/master/img/5.png" data-canonical-src="https://github.com/thomassolcia/Gamersclub-Enchancer/blob/master/img/5.png" width="400"/>
 </p>
