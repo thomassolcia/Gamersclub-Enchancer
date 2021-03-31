@@ -1,6 +1,6 @@
 # GamersClub Enchancer
 #### [Chrome - Web Store](https://chrome.google.com/webstore/detail/gc-helper/ohbhdoglpgeaibbfgifbcknnhcmdnidg)
-![Usuários](https://img.shields.io/chrome-web-store/users/ohbhdoglpgeaibbfgifbcknnhcmdnidg?color=blue&label=Usu%C3%A1rios) ![Versão](https://img.shields.io/badge/Versão-2.6.0.2-blue)
+![Usuários](https://img.shields.io/chrome-web-store/users/ohbhdoglpgeaibbfgifbcknnhcmdnidg?color=blue&label=Usu%C3%A1rios) ![Versão](https://img.shields.io/badge/Versão-2.0.6.6-blue)
 #### Firefox - Browser Add-ons (Em Breve)
 
 ## **Funcionalidades**
@@ -10,6 +10,7 @@
     - Dar Ready
     - Copiar IP
     - Aceitar Termos Ranked
+    - Entrar na Partida
     - Retornar ao Lobby
 - **Visual**
     - Bloquear Propagandas
